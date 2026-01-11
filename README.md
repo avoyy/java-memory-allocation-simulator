@@ -22,7 +22,7 @@ The simulator accepts a series of memory allocation requests and assigns memory 
 ## How to Run
 1. Clone the repository
 2. Compile the Java files: javac *.java
-3. Run the program: java Program4
+3. Run the program: java Main
    
 ## What I Learned
 - How operating systems manage memory allocation
