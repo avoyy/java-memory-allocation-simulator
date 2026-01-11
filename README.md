@@ -21,4 +21,16 @@ The simulator accepts a series of memory allocation requests and assigns memory 
 
 ## How to Run
 1. Clone the repository
-2. Compile the Java files:
+2. Compile the Java files: javac *.java
+3. Run the program: java Main
+   
+## What I Learned
+- How operating systems manage memory allocation
+- Applying algorithms to real system constraints
+- Designing maintainable Java code using OOP principles
+- Debugging and testing logic-heavy programs
+
+## Future Improvements
+- Add memory deallocation support
+- Improve visualization of memory blocks
+- Extend simulator to support additional algorithms
