@@ -12,7 +12,7 @@
 
 import java.util.Scanner;
 
-public class Program4
+public class Main
 {
    private Scanner inputScanner;
    private MemoryManager memoryManager;
@@ -32,14 +32,14 @@ public class Program4
    //***********************************************************
    public static void main(String[] args)
    {
-      Program4 program = new Program4();
+      Main program = new Main();
       program.developerInfo();
       program.runProgram();
    }
 
    //***********************************************************
    //
-   // Method: Program4 (Constructor)
+   // Method: Main (Constructor)
    //
    // Description: Default constructor. It initializes the
    // scanner used for user input.
@@ -49,7 +49,7 @@ public class Program4
    // Returns: N/A
    //
    //***********************************************************
-   public Program4()
+   public Main()
    {
       inputScanner = new Scanner(System.in);
    }
@@ -319,3 +319,4 @@ public class Program4
       }
    }
 }
+
